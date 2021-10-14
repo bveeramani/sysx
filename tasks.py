@@ -31,3 +31,9 @@ def mypy(c):
 def pytest(c):
     """Run tests."""
     c.run("poetry run pytest tests")
+
+
+@task
+def bandit(c):
+    """Check for security issues."""
+    c.run("poetry run bandit -r src")
