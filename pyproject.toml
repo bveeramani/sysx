@@ -6,7 +6,7 @@ authors = ["Balaji Veeramani <bveeramani@berkeley.edu>"]
 license = "Apache-2.0"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 click = "^8.0.3"
 
 [tool.poetry.dev-dependencies]
