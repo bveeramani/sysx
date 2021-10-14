@@ -25,3 +25,9 @@ def black(c, check=False):
 def mypy(c):
     """Type-check code."""
     c.run("poetry run mypy src tests")
+
+
+@task
+def pytest(c):
+    """Run tests."""
+    c.run("poetry run pytest tests")
