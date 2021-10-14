@@ -1,3 +1,4 @@
+"""Main entry point."""
 from . import cli
 
 
