@@ -1,15 +1,15 @@
+"""The System X CLI."""
 import click
-import time
 
 
 @click.group()
 def cli():
-    pass
+    """Top-level command."""
 
 
 @click.command()
 def deploy():
-    pass
+    """Deploy the service to System X."""
 
 
 cli.add_command(deploy)
